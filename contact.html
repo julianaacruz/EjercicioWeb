@@ -11,7 +11,7 @@
 
     <header>
         <nav>
-            
+
             <figure class="logo">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Android_O_Preview_Logo.png/768px-Android_O_Preview_Logo.png" alt="logo" width="50">
             </figure>
@@ -34,20 +34,20 @@
 
     <form class="form">
         <div>
-            <label for="Name">Name</label>
-            <input type="text" name="Name" id="Name">
+            <label class="form__label" for="Name">Name</label>
+            <input class="form__text-input" type="text" name="Name" id="Name">
         </div>
 
         <div>
-            <label for="Email">Email</label>
-            <input type="text" name="Email" id="Name">
+            <label class="form__label" for="Email">Email</label>
+            <input class="form__text-input" type="text" name="Email" id="Name">
         </div>
 
         <div>
-            <textarea name="Comment" rows="10" cols="50">Why are you contacting me?</textarea>
+            <textarea class="form__textarea" name="Comment" placeholder="Why are you contacting me?" rows="10" cols="50"></textarea>
         </div>
 
-        <button type="button">Send</button>
+        <input class="form__submit" type="submit" value="Send">
     </form>
 
     
